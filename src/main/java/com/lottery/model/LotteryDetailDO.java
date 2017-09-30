@@ -150,7 +150,7 @@ public class LotteryDetailDO implements Comparable<LotteryDetailDO>{
 		return this.getAliasNo().compareTo(o.getAliasNo());
 	}
 	
-	public int calDistanceNum(LotteryDetailDO o){
+/*	public int calDistanceNum(LotteryDetailDO o){
 		DateUtils.calculateDaysBetween(this.ge, otherDate)
-	}
+	}*/
 }

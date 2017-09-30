@@ -112,4 +112,10 @@ public class Last1LotteryStrategyImpl extends LotteryStrategyImpl {
 		
 	}
 
+	@Override
+	protected boolean is2Win() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
